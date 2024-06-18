@@ -1,0 +1,49 @@
+name: x_o_game
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  avatar_glow: ^3.0.1
+  flutter:
+    sdk: flutter
+  lottie: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+  fonts:
+    - family: Dancing Script
+      fonts:
+        - asset: assets/FONT/DancingScript-VariableFont_wght.ttf
+    - family: Pacifico
+      fonts:
+        - asset: assets/FONT/Pacifico-Regular.ttf
+    - family: Tilt Neon
+      fonts:
+        - asset: assets/FONT/TiltNeon-Regular.ttf
+    - family: Josfin_Sans
+      fonts:
+        - asset: assets/FONT/JosefinSans-Italic-VariableFont_wght.ttf
+    - family: Ubuntu
+      fonts:
+        - asset: assets/FONT/Ubuntu-Bold.ttf
+    - family: EB_Garamond
+      fonts:
+        - asset: assets/FONT/EBGaramond-VariableFont_wght.ttf
+    - family: CRYSPER  
+      fonts:
+        - asset: assets/FONT/EBGaramond-VariableFont_wght.ttf
